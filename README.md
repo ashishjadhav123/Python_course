@@ -1,3 +1,3 @@
 # Python_course
 
-Tey this python course
+Try this python course
