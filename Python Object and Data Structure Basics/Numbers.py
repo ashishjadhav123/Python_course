@@ -12,3 +12,13 @@ result = 100/777
 
 print("Result is : {r:1.4f}".format(r=result))
 
+# List comprehensions
+
+even_num = [num for num in range(0, 11) if num % 2 == 0]
+print(even_num)
+
+num_list = [num if num % 2 == 0 else 'odd' for num in range(0, 11)]
+print(num_list)
+
+two_list = [x * y for x in [1,2,3] for y in [1,10,100]]
+print(two_list)
